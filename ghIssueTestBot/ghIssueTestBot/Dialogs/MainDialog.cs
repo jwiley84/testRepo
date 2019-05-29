@@ -247,7 +247,7 @@ namespace ghIssueTestBot.Dialogs
                 cognitiveModels.LuisServices.TryGetValue("general", out var luisService);
                 if (luisService == null)
                 {
-                    throw new Exception("The general LUIS Model could not be found in your Bot Services configuration.");
+                    throw new Exception("The general LUIS Model could not be found in your Bot Services configuration. I made a small change.");
                 }
                 else
                 {
